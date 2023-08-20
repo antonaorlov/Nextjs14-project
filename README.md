@@ -1,10 +1,16 @@
-# Build and Deploy a Modern Next.js 13 Application | React, Next JS 13, TypeScript, Tailwind CSS
-![Car Showcase](https://i.ibb.co/GxvFJDZ/Thumbnail.png)
+# 🚗 NextJs Car Gallery with Advanced Search
 
 ## Introduction
-The demand for Next.js 13 applications peaked! Now is the perfect time to build a state-of-the-art modern application that leverages all of the latest and greatest of what Next 13 has to offer, leveraging features such as server-side rendering and the app router. 
- 
-Alongside building this application, you'll also learn how to:
+An enhanced version of a Next.js project built by following a YouTube tutorial. This project showcases a dynamic car gallery integrated with two APIs from RapidAPI and features advanced search capabilities.
+
+# Features
+📸 Dynamic Car Gallery
+🔍 Advanced Search using the API-Ninjas and imagin.studio APIs from RapidAPI
+⚛️ Built with Next.js, React, and TypeScript
+🎨 Styled with TailwindCSS
+🚀 Server-side rendering for optimal performance
+
+# What I have Learned:
 - Use Next.js 13 App Router and Server Side Rendering
 - Implement Advanced Search Functionality
 - Create Filtering Capabilities
@@ -12,8 +18,45 @@ Alongside building this application, you'll also learn how to:
 - Create custom filter, combobox, and modal elements
 - Maintain a well-organized file and folder structure.
 - Embrace the principles of writing clean code.
+- TypeScript
+- TailswindCss
 
-## Want to land your dream programming job in 3 - 6 months?
-⭐ JSM Masterclass Experience - https://jsmastery.pro/masterclass
-Become a Software Engineer. Guaranteed.
-# NEXTJS-CAR
+# Getting Started
+ Clone the repository
+Copy code
+git clone https://github.com/YOUR_GITHUB_USERNAME/your-repo-name.git
+cd your-repo-name
+
+# Install dependencies
+If you are using npm:
+Copy code
+npm install
+
+For yarn users:
+Copy code
+yarn
+
+Set up your environment variables
+Rename the .env.example file to .env.local and update the placeholders with your own RapidAPI keys:
+env
+Copy code
+RAPIDAPI_KEY=your_rapidapi_key
+
+# Run the development server
+bash
+Copy code
+npm run dev
+# or
+yarn dev
+Open http://localhost:3000 with your browser to see the result.
+
+# Built With
+- Next.js
+- React
+- TypeScript
+- TailwindCSS
+- API-Ninjas on RapidAPI
+- imagin.studio on RapidAPI
+
+# Acknowledgments
+This project is open-source and available under the MIT License.
