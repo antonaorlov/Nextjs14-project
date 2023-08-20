@@ -46,7 +46,7 @@ export async function fetchCars(filters: FilterProps) {
 
   // Set the required headers for the API request
   const headers: HeadersInit = {
-    "X-RapidAPI-Key": a5aaec2a74msh42e399234d55468p1cea11jsnd5a427e4014a || "",
+    "X-RapidAPI-Key": 'a5aaec2a74msh42e399234d55468p1cea11jsnd5a427e4014a' || "",
     "X-RapidAPI-Host": "cars-by-api-ninjas.p.rapidapi.com",
   };
 
